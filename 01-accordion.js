@@ -7,6 +7,3 @@ for (let icon of icons) {
     item.classList.toggle("open");
   });
 }
-
-console.log("hi");
-console.log(icons);
