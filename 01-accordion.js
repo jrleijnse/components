@@ -1,9 +1,7 @@
-const icons = document.querySelectorAll(".icon");
+const items = document.querySelectorAll(".item");
 
-for (let icon of icons) {
-  const item = icon.parentElement;
-
-  icon.addEventListener("click", function () {
+for (let item of items) {
+  item.addEventListener("click", function () {
     item.classList.toggle("open");
   });
 }
